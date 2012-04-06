@@ -1,0 +1,267 @@
+/******************************/
+/** Individual Video Page *****/
+/******************************/
+
+.node-video a {
+	text-decoration: none;
+	font-style:bold;
+	color: #000000;
+}
+
+.node-video a:focus, a:hover, a:active {
+	color: #872203;
+}
+
+.node-video {
+	background-color: #f2f2f2;
+	padding: 1em;
+	line-height: 2em;	
+}
+
+.node-video .submitted {
+	color: #872203;
+	font-size: 9pt;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.node-video .field-name-body p {
+	font-size: 11pt;
+	text-align: left;
+}
+
+.node-video .field-name-field-embed-youtube p {
+	text-align: center;
+}
+
+/******************************/
+/** Individual Biography Page */
+/******************************/
+
+.node-bio a {
+	text-decoration: none;
+	font-style:bold;
+	color: #000000;
+}
+
+.node-bio a:focus, a:hover, a:active {
+	color: #872203;
+}
+
+.node-bio {
+	background-color: #f2f2f2;
+	padding: 1em;
+	line-height: 2em;
+}
+
+.node-bio .submitted {
+	color: #872203;
+	font-size: 9pt;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.node-bio .field-name-body p {
+	font-size: 11pt;
+}
+
+.node-bio img {
+	float:left;
+	margin-right: 1.5em;	
+}
+
+.node-bio h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.node-bio blockquote {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+
+/******************************/
+/** View by Topic Page ********/
+/******************************/
+
+.view-by-topic a {
+	text-decoration: none;
+	font-style:bold;
+	color: #000000;
+}
+
+.view-by-topic a:focus, a:hover, a:active {
+	color: #872203;
+}
+
+.view-by-topic .views-field-title {
+	font-size: 14pt;
+	font-style: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;	
+}
+
+.view-by-topic .views-field-created {
+	color: #872203;
+	font-size: 7pt;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.view-by-topic .views-row-odd {
+	float:left;
+	margin-left:1em;
+}
+
+.view-by-topic .views-row-even {
+	float:right;
+	margin-right:1em;
+}
+
+.view-by-topic .views-row-even, .view-by-topic .views-row-odd {
+	width:43%;
+	margin-bottom:1em;
+	margin-top:1em;
+	height:410px;
+	overflow: hidden;
+	background-color: #f2f2f2;
+	padding:1em;
+}
+
+.view-by-topic .views-field-field-embed-youtube p {
+	text-align: center;
+}
+
+.view-by-topic .views-field-field-cover img, 
+.view-by-topic .views-field-field-bio-photo img {
+	float:left;
+	margin: 1em;
+}
+
+/******************************/
+/** View by Culture Page ********/
+/******************************/
+
+.view-by-culture a {
+	text-decoration: none;
+	font-style:bold;
+	color: #000000;
+}
+
+.view-by-culture a:focus, a:hover, a:active {
+	color: #872203;
+}
+
+.view-by-culture .views-field-title {
+	font-size: 14pt;
+	font-style: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;	
+}
+
+.view-by-culture .views-field-created {
+	color: #872203;
+	font-size: 7pt;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.view-by-culture .views-row-odd {
+	float:left;
+	margin-left:1em;
+}
+
+.view-by-culture .views-row-even {
+	float:right;
+	margin-right:1em;
+}
+
+.view-by-culture .views-row-even, .view-by-culture .views-row-odd {
+	width:43%;
+	margin-bottom:1em;
+	margin-top:1em;
+	height:410px;
+	overflow: hidden;
+	background-color: #f2f2f2;
+	padding:1em;
+}
+
+.view-by-culture .views-field-field-embed-youtube p {
+	text-align: center;
+}
+
+.view-by-culture .views-field-field-cover img, 
+.view-by-culture .views-field-field-bio-photo img {
+	float:left;
+	margin: 1em;
+}
+
+/******************************/
+/** About Page ****************/
+/******************************/
+
+.node-about-us a {
+	text-decoration: none;
+	font-style:bold;
+	color: #000000;
+}
+
+.node-about-us a:focus, a:hover, a:active {
+	color: #872203;
+}
+
+.node-about-us {
+	background-color: #f2f2f2;
+	padding: 1em;
+}
+
+.node-about-us .about-page-photos {
+	float: right;
+	margin-left: 2em;
+}
+
+.node-about-us .field-name-body p {
+	font-size: 11pt;
+	padding-right: 2em;
+	line-height: 2em;
+}
+
+.node-about-us .field-name-field-sub-title {
+	font-size: 14pt;
+	font-style: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.node-about-us ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.node-about-us #patronImg1 {
+	float: left;
+	margin-right: 20px;
+}
+
+.node-about-us #patronImg2 {
+	float: left;
+	margin-right: 20px;
+}
+
+/***********************************/
+/** Contact Us Page ****************/
+/***********************************/
+
+.contact-form {
+	background-color: #f2f2f2;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: .5em;
+	padding-bottom: 1em;
+}
+
+.contact-form .form-type-checkbox {
+	font-size: .85em;
+}
+
+.contact-form textarea {
+	font-size: .85em;
+}
+
+/************************************/
+/** Resource Guides Individual Page */
+/************************************/
+

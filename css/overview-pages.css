@@ -1,0 +1,164 @@
+/******************************/
+/** Video Overview Page *******/
+/******************************/
+
+/* Reddish Brown text color: #872203 */
+
+.view-video a {
+	text-decoration: none;
+	font-style:bold;
+	color: #000000;
+}
+
+.view-video a:focus, a:hover, a:active {
+	color: #872203;
+}
+
+.view-video .views-row-odd {
+	float:left;
+	margin-left:1em;
+}
+
+.view-video .views-row-even {
+	float:right;
+	margin-right:1em;
+}
+
+.view-video .views-row-even, .view-video .views-row-odd {
+	width:43%;
+	margin-bottom:1em;
+	margin-top:1em;
+	height:450px;
+	overflow: hidden;
+	background-color: #f2f2f2;
+	padding:1em;
+}
+
+.view-video .views-field-created {
+	color: #872203;
+	font-size: 7pt;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.view-video .views-field-created:before {
+	content:"Posted on ";
+	color: #872203;
+	font-size: 7pt;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.view-video .views-field-title {
+	font-size: 12pt;
+	font-style: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;		
+}
+
+.view-video .views-field-body {
+	font-size: 9pt;
+	text-align: left;
+}
+
+.view-video .views-field-field-embed-youtube p {
+	text-align: center;
+}
+
+/******************************/
+/** Articles Overview Page ****/
+/******************************/
+
+.view-articles a {
+	text-decoration: none;
+	font-style:bold;
+	color: #000000;
+}
+
+.view-articles a:focus, a:hover, a:active {
+	color: #872203;
+}
+
+.view-articles .views-row-odd {
+	float:left;
+	margin-left:1em;
+}
+
+.view-articles .views-row-even {
+	float:right;
+	margin-right:1em;
+}
+
+.view-articles .views-row-even, .view-articles .views-row-odd {
+	width:43%;
+	margin-bottom:1em;
+	margin-top:1em;
+	height:250px;
+	overflow: hidden;
+	background-color: #f2f2f2;
+	padding:1em;
+}
+
+.view-articles .views-field-title {
+	font-size: 14pt;
+	font-style: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;		
+}
+
+.view-articles .views-field-field-biography {
+	font-size: 9pt;
+}
+
+.view-articles .views-field-created {
+	color: #872203;
+	font-size: 7pt;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.view-articles .views-field-created:before {
+	content:"Posted on ";
+	color: #872203;
+	font-size: 7pt;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/*************************************/
+/** Resource Guides Overview Page ****/
+/************************************/
+
+.view-resource-guides a {
+	text-decoration: none;
+	font-style:bold;
+	color: #000000;
+}
+
+.view-resource-guides a:focus, a:hover, a:active {
+	color: #872203;
+}
+
+.view-resource-guides img {
+	float:left;
+	margin: 1em;	
+}
+
+.view-resource-guides .views-row-even, .view-resource-guides .views-row-odd {
+	width:97%;
+	margin-bottom:1em;
+	margin-top:1em;
+	height:600px;
+	overflow: hidden;
+	background-color: #f2f2f2;
+	padding:1em;
+}
+
+.view-resource-guides .views-field-title {
+	font-size: 14pt;
+	font-style: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-bottom: .85em;
+	padding-left: 1em;	
+	padding-top: 1em;
+}
+
+.view-resource-guides .views-field-field-rg-overview {
+	padding: 1em;
+	line-height: 1.5em;	
+	font-size: 11pt;	
+}

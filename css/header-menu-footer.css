@@ -1,0 +1,232 @@
+/*	Font list:
+	- Verdana (Body text, Breadcrumbs, Sidebar list, Search header, Quote Source, Picture caption, Footer text)
+	- Didot
+	- Georgia (Quote, Home page picture overlay)
+	- News Gothic MT (Sidebar Headings)
+
+	Colors:
+	- Lighter Reddish-Brown: #b66935
+	- Medium Reddish-Brown: #862103
+	- Darker Reddish-Brown: #872203
+	- Light Grey: #cccccc
+ */
+
+/*************************/
+/****** PAGE *************/
+/*************************/
+
+body {
+	color: #000000;
+}
+
+#page {
+    padding: 20px;
+}
+
+#content {
+	width: 98%;
+	min-width: 500px;
+}
+
+.title {
+	font-size: 16pt;
+	font-style: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/*************************/
+/****** HEADER ***********/
+/*************************/
+
+#header #quote {
+	float: right;
+}
+
+#header #quote span,
+#header #quote .views-field-field-q-attribute {
+	font-style: normal;
+	font-size: 7pt;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #b66935;
+	line-height: 1.25 em;
+	text-align: right;
+}
+
+#header #quote p,
+#header #quote .views-field-field-q-quote {
+	text-align: right;
+	font-style: italic;
+	font-size: 10pt;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	width: 300px;
+}
+
+#header {
+	border-bottom: solid #000 thick;
+}
+
+/*************************/
+/****** BREADCRUMBS ******/
+/*************************/
+
+.breadcrumb a {
+	color: #cccccc;
+	font-size: 9pt;
+	text-decoration: none;
+}
+
+.breadcrumb a:focus, a:hover, a:active {
+	color: #872203;
+}
+
+/*************************/
+/****** SEARCH ***********/
+/*************************/
+.container-inline {
+	border:0;
+	height:31px;
+	background-color:#000;
+	width:203px;
+}
+
+#block-search-form {
+	float:left;
+	margin: 12px 0 0 5px;
+	padding-top: 0;
+	vertical-align: top;
+	background:transparent;
+	height:31px;
+}
+
+#block-search-form .form-submit {
+	float:right;
+	width:35px; 
+	height:31px; 
+/*	text-indent:-50000px;  */
+	outline:none; 
+	cursor:pointer; 
+	background:#000 url(http://ccw.dev.auraria.edu/sites/all/themes/ccw_2012/images/search-arrow.png) no-repeat top left;
+	border-left:1px solid white;
+	border-top:none;
+	border-right:none;
+	border-bottom:none; 
+	margin:0;
+	padding:0;
+}
+
+#block-search-form .form-text {
+	background-color: transparent;
+	color: white;
+	font-size: 10pt;
+	width: 150px; 
+	height: 30px;
+	border: none;
+	padding-left:10px;	
+/*	margin-right: 10px; */
+}
+
+/*************************/
+/****** SIDEBAR **********/
+/*************************/
+
+.region-sidebar-second {
+	width: 220px;
+	margin-left: -220px;
+}
+
+.region-sidebar-second .section {
+/*	border-left: dotted #872203;
+	height: 540px; */
+	margin: 0pt 0pt 0pt 8pt;
+	padding-top: 10px;
+	margin-bottom: 15px;
+	background-color:transparent;
+}
+
+#main-wrapper {
+	background:transparent url(http://ccw.dev.auraria.edu/sites/all/themes/ccw_2012/images/verticalDashedBorder.gif) repeat-y 100% 25px;
+}
+
+.region-sidebar-second .section h2 {
+	font-family: "News Gothic MT", Verdana, sans-serif;
+	font-size: 11pt;
+	color: #862103;
+	padding-left: 1.1em;
+}
+
+.region-sidebar-second a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.region-sidebar-second a:focus, a:hover, a:active {
+	color: #872203;
+}
+
+.region-sidebar-second ul.menu {
+	list-style-type: none;
+	font-size: 9pt;
+	padding-left: .8em;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+.region-sidebar-second li.leaf {
+	list-style:none;
+	padding-left: .8em;
+}
+
+#block-menu-menu-explore-by-topic h2.block-title {
+	margin-top:4em;
+}
+/*************************/
+/****** FOOTER ***********/
+/*************************/
+
+.region-footer {
+	height:5px;
+	background:transparent url(http://ccw.dev.auraria.edu/sites/all/themes/ccw_2012/images/horizontalDashedBorder.gif) repeat-x top left;
+	list-style: none;
+	font-size: 9pt;
+	margin-top: -18px;	
+}
+
+.region-footer ul {
+	list-style: none;
+}
+
+.region-footer a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.region-footer a:focus, a:hover, a:active {
+	color: #872203;
+}
+
+.region-footer #footer3 {
+	float: right;
+	list-style: none;
+	width: 209px;
+	margin-top:5px;
+	background:transparent url(http://ccw.dev.auraria.edu/sites/all/themes/ccw_2012/images/verticalDashedBorder.gif) repeat-y top left; 
+
+}
+
+.region-footer #footer3 ul {
+	padding-left: 1.5em;
+	margin-top: 2px;
+}
+
+.region-footer #footer2 {
+	float: left;
+	list-style: none;
+	margin-top:5px;
+	background:transparent url(http://ccw.dev.auraria.edu/sites/all/themes/ccw_2012/images/verticalDashedBorder.gif) repeat-y top left; 
+}
+
+.region-footer #footer2 ul {
+	margin-top: 2px;
+}
+
+.r

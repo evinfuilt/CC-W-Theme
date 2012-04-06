@@ -1,0 +1,220 @@
+/*
+.node-resourceguides
+
+.field-name-field-rg-introduction
+*/
+
+#comments a, 
+.comment-add a {
+	color:#000;
+}
+
+
+#comments a:focus, 
+#comments a:hover, 
+#comments a:active, 
+#comments a:visited, 
+.comment-add a:focus, 
+.comment-add a:hover, 
+.comment-add a:active, 
+.comment-add a:visited {
+	color: #872203;
+}
+
+.node-resourceguides .field-name-field-bio-photo {
+	float:left;
+	padding:0 1em 1em 0;
+}
+
+.node-resourceguides {
+background-color: #f2f2f2;
+padding: 1em;
+line-height: 2em;
+}
+
+.ui-state-hover {
+	color:#872203;
+}
+
+/*
+.ui-state-default {
+	background:#e5e5e5;
+}
+
+.ui-state-focus {
+	background:#fff;
+}
+
+ui-accordian h3.ui-state-active {
+	background:purple;
+}
+*/
+
+.accordion-item {
+	border:1px solid #666;
+	padding:.2em .2em .2em 2em;
+	margin-bottom:.25em;	
+}
+
+/****************************/
+/** Book Review - Page ******/
+/****************************/
+
+.node-review h1, .node-review h2, .node-review h3, .node-review h4, .node-review h5, .node-review h6 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color:red;
+}
+
+.node-review blockquote {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+
+.node-reveiw a, .node-review a.username {
+	text-decoration: none;
+	font-style:bold;
+	color: #000;
+}
+
+.node-review ul a {
+	color: #000;
+	text-decoration: none;
+}
+
+.node-review a:focus, 
+.node-review a:hover, 
+.node-review a:active, 
+.node-review a.username:focus, 
+.node-review a.username:hover, 
+.node-review a.usernameœ:active 
+{
+	color: #872203;
+}
+
+
+.node-review .field-name-field-author-name .field-items, 
+.node-review .field-name-field-author-name .field-label, 
+.node-review .field-name-field-author-name .field-item, 
+.node-review .field-name-field-reviewer-name .field-items, 
+.node-review .field-name-field-reviewer-name .field-label, 
+.node-review .field-name-field-reviewer-name .field-item, 
+.node-review .field-name-field-publishing .field-items, 
+.node-review .field-name-field-publishing .field-label, 
+.node-review .field-name-field-publishing .field-item,  
+.node-review .field-name-field-publishing .field-item p {
+	display:inline;
+}
+
+
+.node-review .field-name-field-cover {
+	float:left;
+	margin:auto 1em 1em auto;
+}
+
+.node-review {
+background-color: #f2f2f2;
+padding: 1em;
+line-height: 2em;
+}
+
+.node-review .submitted {
+color: #872203;
+font-size: 9pt;
+font-family: Verdana, Geneva, sans-serif;
+}
+
+.node-review .field-name-body p {
+font-size: 11pt;
+}
+
+/****************************/
+/** B.R. Browse - Boxes *****/
+/****************************/
+
+.view-book-reviews .views-row-odd {
+	float:left;
+	margin-left:1em;
+}
+
+.view-book-reviews .views-row-even {
+	float:right;
+	margin-right:1em;
+}
+
+.view-book-reviews .views-row-even, .view-book-reviews .views-row-odd {
+	width:43%;
+	margin-bottom:1em;
+	margin-top:1em;
+	height:250px;
+	overflow:hidden;
+	background-color:#f2f2f2;
+	padding:1em;
+}
+/****************************/
+/** B.R. Browse - Links *****/
+/****************************/
+.view-book-reviews .views-row-odd .field-content a, 
+.view-book-reviews .views-row-even .field-content a {
+	font-size:1em;
+	font-weight:bold;
+	text-decoration:none;
+	color:#000;
+}
+
+.view-book-reviews .views-row-odd  .field-content a:hover, 
+.view-book-reviews .views-row-even .field-content a:hover, 
+.view-book-reviews .views-row-odd  .field-content a:active, 
+.view-book-reviews .views-row-even .field-content a:active, 
+.view-book-reviews .views-row-odd  .field-content a:focus, 
+.view-book-reviews .views-row-even .field-content a:focus {
+	color:#872203;
+}
+
+/****************************/
+/** B.R. Browse - Review ****/
+/****************************/
+
+.view-book-reviews .views-field-field-review {
+	font-size:.9em;
+	padding-bottom:9pt;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/****************************/
+/** B.R. Browse - Author ****/
+/****************************/
+
+.view-book-reviews .views-field-field-author-name {
+	color:#872203;
+	font-size:.8em;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/****************************/
+/** B.R. Browse - Title ****/
+/****************************/
+
+.view-book-reviews .views-field-title {
+	font-size: 12pt;
+	font-style: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;		
+}
+
+/****************************/
+/** B.R. Browse - Covers ****/
+/****************************/
+
+.view-book-reviews .views-row-odd .views-field-field-cover, .view-book-reviews .views-row-even .views-field-field-cover {
+	float:left;
+	border:none;	
+	width:auto;
+	margin-right:1em;
+}
+
+#front-page-image {
+	width: 100%;
+	background-image: url(http://ccw.dev.auraria.edu/sites/all/themes/ccw_2012/images/CivicCenterBronco.jpg);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
